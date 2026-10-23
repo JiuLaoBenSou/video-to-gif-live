@@ -10,7 +10,7 @@ Convert videos on your own device. Trim a clip and export a GIF or a silent Live
 - Anonymous text requests are stored in Cloudflare D1 and published after moderation. The feedback service receives no video files.
 - Optional support: Alipay / WeChat Pay in Chinese; https://ko-fi.com/fosterfei in English.
 - Google AdSense publisher: ca-pub-4153958256787466. The production domain loads the Google advertising script. Google and advertising partners may use cookies and collect advertising data; privacy details and ad preference links are on the website. Ad delivery depends on Google approval, settings and availability.
-- Empty manual advertising modules stay hidden until actual ad units are connected. Local previews do not load Google advertising scripts.
+- Top display ad unit: 5434171294. Other unconfigured modules stay hidden. Local previews do not load Google advertising scripts.
 - Runtime third-party notices are in licenses.txt.
 
 This repository contains only the public static build. Development files, databases, private media, test fixtures and credentials are excluded.
