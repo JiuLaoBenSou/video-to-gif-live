@@ -1,13 +1,14 @@
 # Video → GIF / Live Photo
 
-Published website: https://jiulaobensou.github.io/video-to-gif-live/
+Website: https://video2gifnlivephoto.com/
 
-A browser-local video tool. Trim a clip, keep its aspect ratio, and export a GIF or a silent Live Photo package. Your video is processed on your device and is not uploaded.
+Convert videos on your own device. Trim a clip and export a GIF or a silent Live Photo package. Videos are not uploaded.
 
-- GIF: up to 15 seconds; original, 4K, 2K, 1080, 720, 480 and 360 size presets, without upscaling.
-- Live Photo: desktop Chrome or Edge, up to 3 seconds, without audio. Download the ZIP and follow its iPhone saving instructions.
-- Chinese and English interface. Optional Alipay / WeChat Pay support in Chinese; Ko-fi in English.
-- Anonymous text requests are stored in Cloudflare D1 and published only after moderation. Video files are not sent to the feedback service.
-- No live advertisements or analytics scripts are included. Runtime third-party notices are in licenses.txt.
+- English by default. Use the language slider or ?lang=zh for Chinese.
+- GIF: original, 4K, 2K, 1080, 720, 480 and 360 presets, preserving the aspect ratio without upscaling; up to 15 seconds.
+- Live Photo: desktop Chrome or Edge, up to 3 seconds, without audio. Download the ZIP and follow its iPhone saving instructions. Mobile Live Photo saving is planned for a future app.
+- Anonymous text requests are stored in Cloudflare D1 and published after moderation. The feedback service receives no video files.
+- Optional support: Alipay / WeChat Pay in Chinese; https://ko-fi.com/fosterfei in English.
+- No advertisements or analytics scripts are loaded. Runtime third-party notices are in licenses.txt.
 
-This repository contains the published static build. Local development files, private media, databases, test fixtures and credentials are excluded.
+This repository contains only the public static build. Development files, databases, private media, test fixtures and credentials are excluded.
