@@ -6,6 +6,8 @@ Convert videos on your own device. Trim a clip and export a GIF or a silent Live
 
 - English by default. Use the language slider or ?lang=zh for Chinese.
 - GIF: original, 4K, 2K, 1080, 720, 480 and 360, preserving aspect ratio without upscaling; up to 15 seconds.
+- GIF playback: 0.25x–4x, forward, reverse or ping-pong; a 1–30 FPS rotary dial. Up to 450 output frames, including slow motion and return frames.
+- Optional target file size: 1 KB–64 MB (decimal units). Automatically reduces colors and dimensions, keeps the selected frame rate and verifies the final byte count. Reports failure if the target cannot be met.
 - Live Photo: desktop Chrome or Edge, up to 3 seconds, without audio. Download the ZIP and follow its iPhone saving instructions. Mobile Live Photo saving is planned for a future app.
 - Anonymous text requests are stored in Cloudflare D1 and published after moderation. The feedback service receives no video files.
 - Optional support: Alipay / WeChat Pay in Chinese; https://ko-fi.com/fosterfei in English.
