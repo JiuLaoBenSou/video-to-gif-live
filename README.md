@@ -4,7 +4,7 @@ Website: https://video2gifnlivephoto.com/
 
 Convert videos on your own device. Trim a clip and export a GIF or a silent Live Photo package. Videos are not uploaded.
 
-- English by default. Use the language slider or ?lang=zh for Chinese.
+- English by default. Chinese is available at /zh/. The language slider keeps your edit in place; legacy ?lang=zh links are supported.
 - GIF: original, 4K, 2K, 1080, 720, 480 and 360, preserving aspect ratio without upscaling; up to 15 seconds.
 - GIF playback: 0.25x–4x, forward, reverse or ping-pong; a 1–30 FPS rotary dial. Up to 450 output frames, including slow motion and return frames.
 - Optional target file size: 1 KB–64 MB (decimal units). Automatically reduces colors and dimensions, keeps the selected frame rate and verifies the final byte count. Reports failure if the target cannot be met.
