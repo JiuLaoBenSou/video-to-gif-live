@@ -115,3 +115,18 @@ footer{flex-wrap:wrap}
  .dial-copy{align-self:center}
  .frame-module>#dial-help{max-width:none;width:100%}
 }
+
+/* Export action and per-stage progress: keep the main task unmistakable. */
+#export-actions{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;padding-top:20px}
+#generate{min-height:58px;font-size:16px;font-weight:700;background:#b84c0e;color:#fff;border:1px solid #a84510;box-shadow:4px 5px 10px #a5adb8,-3px -3px 8px #fff}
+#generate:hover:not(:disabled){background:#a7420b;box-shadow:3px 4px 7px #a5adb8,-2px -2px 6px #fff}
+#generate:active:not(:disabled){box-shadow:inset 2px 3px 6px #8e3d15}
+#generate:disabled{background:#d6dce3;color:#626f7e;border-color:#c4ccd5;box-shadow:var(--shallow)}
+#replace{min-height:40px;padding:8px;color:var(--muted);background:transparent;box-shadow:none;font-size:12px}
+#progress-area{margin-top:18px;padding:14px;border:1px solid #c2cbd5;border-radius:12px;box-shadow:var(--shallow)}
+.progress-heading{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;margin-top:0;font-size:12px;line-height:1.6}
+#progress-text{overflow-wrap:anywhere}#progress-percent{font-size:15px;font-weight:600;color:var(--ink)}
+#cancel{grid-column:1/-1;justify-self:end;min-height:36px}
+#progress{display:block;width:100%;height:9px;margin-top:8px}
+progress::-moz-progress-bar{background:var(--orange);border-radius:7px}
+progress:indeterminate{background:repeating-linear-gradient(100deg,#cbd3dd 0 12px,var(--orange) 12px 24px)}
